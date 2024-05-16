@@ -97,7 +97,7 @@ namespace UnityMonoDllSourceCodePatcher {
 				throw new ProgramException("Invalid version number");
 
 			case PatcherKind.V35:
-				patcher = new V35.PatcherV35(options.UnityVersion, options.UnityGitHash, options.UnityRepoPath, options.DnSpyUnityMonoRepoPath, options.GitExePath, options.WindowsTargetPlatformVersion, options.PlatformToolset);
+				patcher = new V40.PatcherV40(options.UnityVersion, options.UnityGitHash, options.UnityRepoPath, options.DnSpyUnityMonoRepoPath, options.GitExePath, options.WindowsTargetPlatformVersion, options.PlatformToolset);
 				break;
 
 			case PatcherKind.V40:
