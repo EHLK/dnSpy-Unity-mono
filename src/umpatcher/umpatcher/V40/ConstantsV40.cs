@@ -26,7 +26,7 @@ namespace UnityMonoDllSourceCodePatcher.V40 {
 		};
 
 		public static readonly string[] UnityFoldersToCopy_2017 = new string[] {
-			"eglib",
+			"mono/eglib",
 			"external/bdwgc",
 			"mono",
 			"msvc",
