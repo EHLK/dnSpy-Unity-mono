@@ -22,7 +22,7 @@ using System;
 namespace UnityMonoDllSourceCodePatcher.V35 {
 	static class ConstantsV35 {
 		public static readonly string[] UnityFoldersToCopy = new string[] {
-			"eglib",
+			"mono/eglib",
 			"libgc",
 			"mono",
 			"msvc",
